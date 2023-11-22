@@ -1,0 +1,22 @@
+{
+  "name": "modulos-ts",
+  "version": "1.0.0",
+  "description": "Modularización con typescript",
+  "main": "index.ts",
+  "scripts": {
+    "build" : "tsc",
+    "dev": "ts-node index.ts",
+    "start" : "node ./dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "ts-node",
+    "tsc"
+  ],
+  "author": "Ailen Paez",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}
